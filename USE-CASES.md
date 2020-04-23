@@ -10,7 +10,7 @@
 7. after awhile use `new Epic Name` on **FTN Power** like `f.name <epic name>`
 
 
-### Initial settings of FTN Power discordbot
+## Initial settings of FTN Power discordbot
 
 1. invite FTN Power bot to the discord using `https://ftnpower.com/Home/Invite`
 2. (`OPTIONAL`, `DEFAULT:PVE`)prefer a default game-mode of discord using `f.discord.mode <pve/pvp>` which effects the results of `f.up` and `f.name` commads
@@ -19,8 +19,8 @@
 
 
 
-
-
+## Meaning of 'no bot can manage a discord owner'
+- this means **any discordbot CANNOT** `add`/`remove`/`update` information of `DiscordGuild Owner`, this special condition for specific person to prevent stealing or kicking the owner of the discord from his own discord, [related with discord policy](https://stackoverflow.com/questions/45251598/can-i-change-discord-servers-owner-nickname-with-bot).(**still bot will work at background but can not show on discord such as role or changing  the nickname**)
 
 ## Important informations
 
