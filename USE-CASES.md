@@ -22,7 +22,35 @@
 ## Meaning of 'no bot can manage a discord owner'
 - this means **any discordbot CANNOT** `add`/`remove`/`update` information of `DiscordGuild Owner`, this special condition for specific person to prevent stealing or kicking the owner of the discord from his own discord, [related with discord policy](https://stackoverflow.com/questions/45251598/can-i-change-discord-servers-owner-nickname-with-bot).(**still bot will work at background but can not show on discord such as role or changing  the nickname**)
 
+## Basic Commands
+  full command list on the [ftnpower.com](https://ftnpower.com/Home/Commands)
+
+  **allowed to checking only-self information**
+- f.name / f.link
+- f.unlink
+- f.up / f.update
+- f.name.tag
+- f.pve
+- f.pr / f.pve.resources
+- f.mode
+- f.verify
+- f.top.global
+- f.pve.maproles.add
+- f.pvp
+- f.help
+- f.info / f.donate
+- f.vote
+- f.patch
+- f.discord.info
+- f.lang
+- f.user.update / f.user.up
+- f.user.name
+- f.user.mode
+- f.user.info
+
+
 ## Important informations
 
 1. using **FTN Power** requires a valid epic name
 2. if you need to change response language of **FTN Power**, firstly use `f.lang en` then create map-zones or be sure you already have an english map-zones (**REQUIRES Guild Owner permission to use f.lang command**)
+
