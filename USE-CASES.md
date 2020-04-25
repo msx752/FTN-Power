@@ -22,6 +22,9 @@
 ## Meaning of 'no bot can manage a discord owner'
 - this means **any discordbot CANNOT** `add`/`remove`/`update` information of `DiscordGuild Owner`, this special condition for specific person to prevent stealing or kicking the owner of the discord from his own discord, [related with discord policy](https://stackoverflow.com/questions/45251598/can-i-change-discord-servers-owner-nickname-with-bot).(**still bot will work at background but can not show on discord such as role or changing  the nickname**)
 
+## The 'f.name' and 'f.up' commands aren't work on discord staf who have Administrator role
+- In this situation you must move `FTN Power` discord role to above of `Administrator` discord role, because **FTN Power** bot doesn't have permission to manage user
+
 ## Basic Commands
   full command list on the [ftnpower.com](https://ftnpower.com/Home/Commands)
 
