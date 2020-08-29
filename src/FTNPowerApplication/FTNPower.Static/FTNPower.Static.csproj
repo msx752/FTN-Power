@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  
+  <ItemGroup>
+
+    <ProjectReference Include="..\..\Discord.Net-dev\src\Discord.Net.Core\Discord.Net.Core.csproj" />
+
+    <ProjectReference Include="..\..\Fortnite\Fortnite.ExternalApi\Fortnite.External.csproj" />
+
+    <ProjectReference Include="..\..\Fortnite\Fortnite.Model\Fortnite.Model.csproj" />
+
+    <ProjectReference Include="..\..\Fortnite\Fortnite.StaticData\Fortnite.Static.csproj" />
+
+    <ProjectReference Include="..\..\Fortnite\Fortnite\Fortnite.csproj" />
+
+    <ProjectReference Include="..\..\FTNPower.Redis\FTNPower.Redis.csproj" />
+
+    <ProjectReference Include="..\FTNPower.Core\FTNPower.Core.csproj" />
+
+    <ProjectReference Include="..\FTNPower.Data\FTNPower.Data.csproj" />
+
+    <ProjectReference Include="..\FTNPower.Model\FTNPower.Model.csproj" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Redis\" />
+  </ItemGroup>
+
+</Project>

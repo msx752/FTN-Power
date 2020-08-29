@@ -1,0 +1,346 @@
+{
+  "STWSpecialEventStorefront": [
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 700,
+      "dailyLimit": -1,
+      "weeklyLimit": -1,
+      "monthlyLimit": -1,
+      "EventLimit": "1",
+      "templateId": "workerbasic_sr_t01",
+      "quantity": 1
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 2800,
+      "dailyLimit": -1,
+      "weeklyLimit": -1,
+      "monthlyLimit": -1,
+      "EventLimit": "1",
+      "templateId": "hid_constructor_032_toyconstructor_sr_t01",
+      "quantity": 1
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 3200,
+      "dailyLimit": -1,
+      "weeklyLimit": -1,
+      "monthlyLimit": -1,
+      "EventLimit": "1",
+      "templateId": "hid_outlander_022_sr_t01",
+      "quantity": 1
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 2800,
+      "dailyLimit": -1,
+      "weeklyLimit": -1,
+      "monthlyLimit": -1,
+      "EventLimit": "1",
+      "templateId": "hid_outlander_023_sr_t01",
+      "quantity": 1
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 400,
+      "dailyLimit": -1,
+      "weeklyLimit": -1,
+      "monthlyLimit": -1,
+      "EventLimit": "",
+      "templateId": "schematic_r",
+      "quantity": 1
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 1680,
+      "dailyLimit": -1,
+      "weeklyLimit": -1,
+      "monthlyLimit": -1,
+      "EventLimit": "2",
+      "templateId": "id_shotgun_semiauto_scavenger_sr_ore_t01",
+      "quantity": 1
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 1680,
+      "dailyLimit": -1,
+      "weeklyLimit": -1,
+      "monthlyLimit": -1,
+      "EventLimit": "1",
+      "templateId": "id_wall_darts_sr_t01",
+      "quantity": 1
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 1000,
+      "dailyLimit": -1,
+      "weeklyLimit": -1,
+      "monthlyLimit": -1,
+      "EventLimit": "",
+      "templateId": "schematic_vr",
+      "quantity": 1
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 3200,
+      "dailyLimit": -1,
+      "weeklyLimit": -1,
+      "monthlyLimit": -1,
+      "EventLimit": "1",
+      "templateId": "hid_commando_014_wukong_sr_t01",
+      "quantity": 1
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 1680,
+      "dailyLimit": -1,
+      "weeklyLimit": -1,
+      "monthlyLimit": -1,
+      "EventLimit": "1",
+      "templateId": "did_defenderassault_basic_m_sr_t01",
+      "quantity": 1
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 2800,
+      "dailyLimit": -1,
+      "weeklyLimit": -1,
+      "monthlyLimit": -1,
+      "EventLimit": "1",
+      "templateId": "hid_commando_025_sr_t01",
+      "quantity": 1
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 1680,
+      "dailyLimit": -1,
+      "weeklyLimit": -1,
+      "monthlyLimit": -1,
+      "EventLimit": "2",
+      "templateId": "id_edged_sword_heavy_sr_ore_t01",
+      "quantity": 1
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 25,
+      "dailyLimit": -1,
+      "weeklyLimit": -1,
+      "monthlyLimit": -1,
+      "EventLimit": "100",
+      "templateId": "accountinventorybonus",
+      "quantity": 1
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 2800,
+      "dailyLimit": -1,
+      "weeklyLimit": -1,
+      "monthlyLimit": -1,
+      "EventLimit": "1",
+      "templateId": "hid_ninja_034_toymonkey_sr_t01",
+      "quantity": 1
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 2800,
+      "dailyLimit": -1,
+      "weeklyLimit": -1,
+      "monthlyLimit": -1,
+      "EventLimit": "1",
+      "templateId": "hid_commando_007_sr_t01",
+      "quantity": 1
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 1680,
+      "dailyLimit": -1,
+      "weeklyLimit": -1,
+      "monthlyLimit": -1,
+      "EventLimit": "1",
+      "templateId": "id_blunt_hammer_heavy_dragon_sr_ore_t01",
+      "quantity": 1
+    }
+  ],
+  "STWRotationalEventStorefront": [
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 1680,
+      "dailyLimit": -1,
+      "weeklyLimit": 1,
+      "monthlyLimit": -1,
+      "EventLimit": "",
+      "templateId": "id_ceiling_falling_sr_t01",
+      "quantity": 1
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 25,
+      "dailyLimit": -1,
+      "weeklyLimit": 10,
+      "monthlyLimit": -1,
+      "EventLimit": "",
+      "templateId": "accountinventorybonus",
+      "quantity": 1
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 50,
+      "dailyLimit": -1,
+      "weeklyLimit": 4,
+      "monthlyLimit": -1,
+      "EventLimit": "",
+      "templateId": "reagent_c_t01",
+      "quantity": 10
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 100,
+      "dailyLimit": -1,
+      "weeklyLimit": 10,
+      "monthlyLimit": -1,
+      "EventLimit": "",
+      "templateId": "reagent_alteration_generic",
+      "quantity": 200
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 160,
+      "dailyLimit": -1,
+      "weeklyLimit": 1,
+      "monthlyLimit": -1,
+      "EventLimit": "",
+      "templateId": "hid_commando_011_uc_t01",
+      "quantity": 1
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 1680,
+      "dailyLimit": -1,
+      "weeklyLimit": 1,
+      "monthlyLimit": -1,
+      "EventLimit": "",
+      "templateId": "id_shotgun_tactical_precision_sr_ore_t01",
+      "quantity": 1
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 600,
+      "dailyLimit": -1,
+      "weeklyLimit": 3,
+      "monthlyLimit": -1,
+      "EventLimit": "",
+      "templateId": "id_pistol_gatling_vr_ore_t01",
+      "quantity": 1
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 200,
+      "dailyLimit": -1,
+      "weeklyLimit": 5,
+      "monthlyLimit": -1,
+      "EventLimit": "",
+      "templateId": "reagent_alteration_upgrade_r",
+      "quantity": 90
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 100,
+      "dailyLimit": -1,
+      "weeklyLimit": 3,
+      "monthlyLimit": -1,
+      "EventLimit": "",
+      "templateId": "reagent_c_t02",
+      "quantity": 10
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 240,
+      "dailyLimit": -1,
+      "weeklyLimit": 3,
+      "monthlyLimit": -1,
+      "EventLimit": "",
+      "templateId": "id_launcher_rocket_r_ore_t01",
+      "quantity": 1
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 30,
+      "dailyLimit": -1,
+      "weeklyLimit": 20,
+      "monthlyLimit": -1,
+      "EventLimit": "",
+      "templateId": "reagent_evolverarity_r",
+      "quantity": 10
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 1000,
+      "dailyLimit": -1,
+      "weeklyLimit": 1,
+      "monthlyLimit": -1,
+      "EventLimit": "",
+      "templateId": "hid_constructor_008_vr_t01",
+      "quantity": 1
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 250,
+      "dailyLimit": -1,
+      "weeklyLimit": 2,
+      "monthlyLimit": -1,
+      "EventLimit": "",
+      "templateId": "workerbasic_vr_t01",
+      "quantity": 1
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 75,
+      "dailyLimit": -1,
+      "weeklyLimit": 10,
+      "monthlyLimit": -1,
+      "EventLimit": "",
+      "templateId": "reagent_evolverarity_vr",
+      "quantity": 10
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 125,
+      "dailyLimit": -1,
+      "weeklyLimit": 5,
+      "monthlyLimit": -1,
+      "EventLimit": "",
+      "templateId": "reagent_alteration_upgrade_uc",
+      "quantity": 60
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 75,
+      "dailyLimit": -1,
+      "weeklyLimit": 10,
+      "monthlyLimit": -1,
+      "EventLimit": "",
+      "templateId": "reagent_evolverarity_sr",
+      "quantity": 5
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 200,
+      "dailyLimit": -1,
+      "weeklyLimit": 1,
+      "monthlyLimit": -1,
+      "EventLimit": "",
+      "templateId": "reagent_c_t04",
+      "quantity": 10
+    },
+    {
+      "PriceType": "eventcurrency_scaling",
+      "Price": 150,
+      "dailyLimit": -1,
+      "weeklyLimit": 2,
+      "monthlyLimit": -1,
+      "EventLimit": "",
+      "templateId": "reagent_c_t03",
+      "quantity": 10
+    }
+  ]
+}

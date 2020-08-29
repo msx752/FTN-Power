@@ -1,0 +1,261 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="System.Drawing.Common" Version="5.0.0-preview.7.20364.11" />
+		<PackageReference Include="System.Drawing.Primitives" Version="4.3.0" />
+		<PackageReference Include="System.Resources.Extensions" Version="5.0.0-preview.7.20364.11" />
+	</ItemGroup>
+	
+  <ItemGroup>
+    <None Remove="CustomFonts\aAntiCorona.ttf" />
+    <None Remove="CustomFonts\Anja Eliane accent002 ftnpower.ttf" />
+    <None Remove="CustomFonts\Anton\Anton-Regular.ttf" />
+    <None Remove="CustomFonts\Anton\OFL.txt" />
+    <None Remove="CustomFonts\CantedFX Bold.ttf" />
+    <None Remove="CustomFonts\CantedFX Regular.ttf" />
+    <None Remove="CustomFonts\dafont.com.url" />
+    <None Remove="CustomFonts\Dimbo Italic ftnpower.ttf" />
+    <None Remove="CustomFonts\Dimbo Regular ftnpower .ttf" />
+    <None Remove="CustomFonts\Gilles_Handwriting.ttf" />
+    <None Remove="CustomFonts\Kanit\Kanit-Black.ttf" />
+    <None Remove="CustomFonts\Kanit\Kanit-BlackItalic.ttf" />
+    <None Remove="CustomFonts\Kanit\Kanit-Bold.ttf" />
+    <None Remove="CustomFonts\Kanit\Kanit-BoldItalic.ttf" />
+    <None Remove="CustomFonts\Kanit\Kanit-ExtraBold.ttf" />
+    <None Remove="CustomFonts\Kanit\Kanit-ExtraBoldItalic.ttf" />
+    <None Remove="CustomFonts\Kanit\Kanit-ExtraLight.ttf" />
+    <None Remove="CustomFonts\Kanit\Kanit-ExtraLightItalic.ttf" />
+    <None Remove="CustomFonts\Kanit\Kanit-Italic.ttf" />
+    <None Remove="CustomFonts\Kanit\Kanit-Light.ttf" />
+    <None Remove="CustomFonts\Kanit\Kanit-LightItalic.ttf" />
+    <None Remove="CustomFonts\Kanit\Kanit-Medium.ttf" />
+    <None Remove="CustomFonts\Kanit\Kanit-MediumItalic.ttf" />
+    <None Remove="CustomFonts\Kanit\Kanit-Regular.ttf" />
+    <None Remove="CustomFonts\Kanit\Kanit-SemiBold.ttf" />
+    <None Remove="CustomFonts\Kanit\Kanit-SemiBoldItalic.ttf" />
+    <None Remove="CustomFonts\Kanit\Kanit-Thin.ttf" />
+    <None Remove="CustomFonts\Kanit\Kanit-ThinItalic.ttf" />
+    <None Remove="CustomFonts\Kanit\OFL.txt" />
+    <None Remove="CustomFonts\Kaushan_Script\KaushanScript-Regular.ttf" />
+    <None Remove="CustomFonts\Kaushan_Script\OFL.txt" />
+    <None Remove="CustomFonts\Knewave\Knewave-Regular.ttf" />
+    <None Remove="CustomFonts\Knewave\OFL.txt" />
+    <None Remove="CustomFonts\KOMTXKBI.ttf" />
+    <None Remove="CustomFonts\KOMTXTBI.ttf" />
+    <None Remove="CustomFonts\KOMTXTB_.ttf" />
+    <None Remove="CustomFonts\KOMTXTI_.ttf" />
+    <None Remove="CustomFonts\KOMTXTKB.ttf" />
+    <None Remove="CustomFonts\KOMTXTKI.ttf" />
+    <None Remove="CustomFonts\KOMTXTK_.ttf" />
+    <None Remove="CustomFonts\KOMTXTTI.ttf" />
+    <None Remove="CustomFonts\KOMTXTT_.ttf" />
+    <None Remove="CustomFonts\KOMTXT__.ttf" />
+    <None Remove="CustomFonts\Montserrat\Montserrat-Black.ttf" />
+    <None Remove="CustomFonts\Montserrat\Montserrat-BlackItalic.ttf" />
+    <None Remove="CustomFonts\Montserrat\Montserrat-Bold.ttf" />
+    <None Remove="CustomFonts\Montserrat\Montserrat-BoldItalic.ttf" />
+    <None Remove="CustomFonts\Montserrat\Montserrat-ExtraBold.ttf" />
+    <None Remove="CustomFonts\Montserrat\Montserrat-ExtraBoldItalic.ttf" />
+    <None Remove="CustomFonts\Montserrat\Montserrat-ExtraLight.ttf" />
+    <None Remove="CustomFonts\Montserrat\Montserrat-ExtraLightItalic.ttf" />
+    <None Remove="CustomFonts\Montserrat\Montserrat-Italic.ttf" />
+    <None Remove="CustomFonts\Montserrat\Montserrat-Light.ttf" />
+    <None Remove="CustomFonts\Montserrat\Montserrat-LightItalic.ttf" />
+    <None Remove="CustomFonts\Montserrat\Montserrat-Medium.ttf" />
+    <None Remove="CustomFonts\Montserrat\Montserrat-MediumItalic.ttf" />
+    <None Remove="CustomFonts\Montserrat\Montserrat-Regular.ttf" />
+    <None Remove="CustomFonts\Montserrat\Montserrat-SemiBold.ttf" />
+    <None Remove="CustomFonts\Montserrat\Montserrat-SemiBoldItalic.ttf" />
+    <None Remove="CustomFonts\Montserrat\Montserrat-Thin.ttf" />
+    <None Remove="CustomFonts\Montserrat\Montserrat-ThinItalic.ttf" />
+    <None Remove="CustomFonts\Montserrat\OFL.txt" />
+    <None Remove="CustomFonts\obelisque.ttf" />
+    <None Remove="CustomFonts\Oswald\OFL.txt" />
+    <None Remove="CustomFonts\Oswald\static\Oswald-Bold.ttf" />
+    <None Remove="CustomFonts\Oswald\static\Oswald-ExtraLight.ttf" />
+    <None Remove="CustomFonts\Oswald\static\Oswald-Light.ttf" />
+    <None Remove="CustomFonts\Oswald\static\Oswald-Medium.ttf" />
+    <None Remove="CustomFonts\Oswald\static\Oswald-Regular.ttf" />
+    <None Remove="CustomFonts\Oswald\static\Oswald-SemiBold.ttf" />
+    <None Remove="CustomFonts\Pacifico\OFL.txt" />
+    <None Remove="CustomFonts\Pacifico\Pacifico-Regular.ttf" />
+    <None Remove="CustomFonts\palamecia titling.ttf" />
+    <None Remove="CustomFonts\sonic_comic.ttf" />
+    <None Remove="CustomFonts\WC_RoughTrad.ttf" />
+    <None Remove="CustomFonts\Whitney_Bold_Regular.ttf" />
+    <None Remove="CustomFonts\Whitney_Book_Regular.ttf" />
+    <None Remove="CustomFonts\Whitney_Medium_Regular.ttf" />
+    <None Remove="CustomFonts\Whitney_Semibold_Regular.ttf" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <EmbeddedResource Include="CustomFonts\Anton\Anton-Regular.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Anton\OFL.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Kanit\Kanit-Black.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Kanit\Kanit-BlackItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Kanit\Kanit-Bold.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Kanit\Kanit-BoldItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Kanit\Kanit-ExtraBold.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Kanit\Kanit-ExtraBoldItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Kanit\Kanit-ExtraLight.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Kanit\Kanit-ExtraLightItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Kanit\Kanit-Italic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Kanit\Kanit-Light.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Kanit\Kanit-LightItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Kanit\Kanit-Medium.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Kanit\Kanit-MediumItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Kanit\Kanit-Regular.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Kanit\Kanit-SemiBold.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Kanit\Kanit-SemiBoldItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Kanit\Kanit-Thin.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Kanit\Kanit-ThinItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Kanit\OFL.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Kaushan_Script\KaushanScript-Regular.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Kaushan_Script\OFL.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Knewave\Knewave-Regular.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Knewave\OFL.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Montserrat\Montserrat-Black.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Montserrat\Montserrat-BlackItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Montserrat\Montserrat-Bold.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Montserrat\Montserrat-BoldItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Montserrat\Montserrat-ExtraBold.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Montserrat\Montserrat-ExtraBoldItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Montserrat\Montserrat-ExtraLight.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Montserrat\Montserrat-ExtraLightItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Montserrat\Montserrat-Italic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Montserrat\Montserrat-Light.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Montserrat\Montserrat-LightItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Montserrat\Montserrat-Medium.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Montserrat\Montserrat-MediumItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Montserrat\Montserrat-Regular.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Montserrat\Montserrat-SemiBold.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Montserrat\Montserrat-SemiBoldItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Montserrat\Montserrat-Thin.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Montserrat\Montserrat-ThinItalic.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Montserrat\OFL.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Oswald\OFL.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Oswald\static\Oswald-Bold.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Oswald\static\Oswald-ExtraLight.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Oswald\static\Oswald-Light.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Oswald\static\Oswald-Medium.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Oswald\static\Oswald-Regular.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Oswald\static\Oswald-SemiBold.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Pacifico\OFL.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomFonts\Pacifico\Pacifico-Regular.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Image.Model\Image.Model.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,108 @@
+﻿namespace Fortnite.Localization
+{
+    public enum BotTranslationString
+    {
+        NameWillBeUpdated,
+        SetGuildLanguage,
+        UpdateRequestReceived,
+
+        //UpdateRequestReceivedByAdmin,
+        //fpstat,
+        noname,
+
+        Stonewood,
+        Plankerton,
+        CannyValley,
+        TwinePeaks,
+
+        //BotRolesRemoved,
+        //BotRolesInitialized,
+        //BotRolesAlreadyInitialized,
+        YouAreAlreadyInQueue,
+
+        SameLanguage,
+        Help,
+        Donation,
+        BotDescription,
+        FirstlyUseAnotherCmd1,
+        FirstlyUseAnotherCmd2,
+        YouHaveToWaitTime1,
+        YourNameIsLocked,
+
+        //AfterMinutesTry1,
+        CanNotUpdateDiscordOwner,
+
+        ContainsNotAllowed,
+        PatchNotes,
+        CurrentPatchNotes,
+        FortniteMaintenance,
+        AutoRemoveRequest1,
+        PvpProfilIsNotPublic,
+        EnablingToBotFeatures,
+
+        PR_Title,
+        P_Title,
+        P_PowerLevel,
+        P_ChestOpened,
+        P_collectionLevel,
+        P_CommanderLevel,
+        P_DaysLoggedin,
+        P_GnomDestroy,
+        P_MistMonsterKilled,
+        P_PlayWithOthers,
+        P_StructuresBuilt,
+        P_SurvivorSaved,
+        P_ZoneExplored,
+        P_StoredResearch,
+        P_FortitudeResearch,
+        P_OffenseResearch,
+        P_ResistanceResearch,
+        P_TechnologyResearch,
+
+        PS_Title,
+        PS_Description,
+        PS_Max,
+        PS_Needs,
+        squad_attribute_scavenging_gadgeteers,
+        squad_attribute_synthesis_corpsofengineering,
+        squad_attribute_scavenging_scoutingparty,
+        squad_attribute_arms_closeassaultsquad,
+        squad_attribute_medicine_trainingteam,
+        squad_attribute_synthesis_thethinktank,
+        squad_attribute_arms_fireteamalpha,
+        squad_attribute_medicine_emtsquad,
+
+        PA_Title,
+
+        // AlertCooldowns,
+        GeneralAlert,
+
+        NatureAlert,
+        WaterAlert,
+        FireAlert,
+        MegaAlert,
+        StormAlert,
+        NewMissionIntroductionCategory,
+        PA_Available,
+
+        MA_Available,
+        MA_Title,
+        MA_Rewards,
+        MA_NegativeMutation,
+        MA_PositiveMutation,
+        MA_ExpreIn,
+        IncorrectGameMode,
+        NameIsLocked,
+        NameIsUnLocked,
+        YouShouldHaveValidName,
+        SelectItemType1,
+        InvalidUserMention,
+        NameUnlinked,
+        NameisNotLinked,
+        NameIsNotCorrectMsg,
+
+        ShowsPVEDecimals1,
+        SupportedBy,
+        CreatorCode
+    }
+}

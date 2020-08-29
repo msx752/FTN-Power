@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
+  </PropertyGroup>
+	
+<PropertyGroup>
+  <ServerGarbageCollection>false</ServerGarbageCollection>
+</PropertyGroup>
+	
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.0-preview.3.20181.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    
+    <ProjectReference Include="..\..\Discord.Net-dev\src\Discord.Net.Commands\Discord.Net.Commands.csproj" />
+    
+    <ProjectReference Include="..\..\Discord.Net-dev\src\Discord.Net.Core\Discord.Net.Core.csproj" />
+    
+    <ProjectReference Include="..\..\Discord.Net-dev\src\Discord.Net.Rest\Discord.Net.Rest.csproj" />
+    
+    <ProjectReference Include="..\..\Discord.Net-dev\src\Discord.Net.Webhook\Discord.Net.Webhook.csproj" />
+    
+    <ProjectReference Include="..\..\Discord.Net-dev\src\Discord.Net.WebSocket\Discord.Net.WebSocket.csproj" />
+    
+    <ProjectReference Include="..\..\Fortnite\Fortnite.Localization\Fortnite.Localization.csproj" />
+    
+    <ProjectReference Include="..\..\GlobalLibs\MyLogger\Global.csproj" />
+    <ProjectReference Include="..\..\FTNPower.Redis\FTNPower.Redis.csproj" />
+    <ProjectReference Include="..\..\Websites\FTNPower.Image.Core\Image.Core.csproj" />
+    <ProjectReference Include="..\..\Websites\Image.Model\Image.Model.csproj" />
+    <ProjectReference Include="..\FTNPower.Core\FTNPower.Core.csproj" />
+    <ProjectReference Include="..\FTNPower.Data\FTNPower.Data.csproj" />
+    <ProjectReference Include="..\FTNPower.Model\FTNPower.Model.csproj" />
+    <ProjectReference Include="..\FTNPower.Static\FTNPower.Static.csproj" />
+  </ItemGroup>
+
+  <Import Project="..\..\ProjectConfigurations\ProjectConfigurations.projitems" Label="Shared" />
+
+</Project>

@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <UserSecretsId>bb5adcdb-6d1f-45a0-bef4-fe4f362b6728</UserSecretsId>
+    <StartupObject>FTNPower.Image.Api.Program</StartupObject>
+    <DockerfileContext>..\..</DockerfileContext>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+
+	<PropertyGroup>
+		<ServerGarbageCollection>false</ServerGarbageCollection>
+	</PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Service\**" />
+    <Compile Remove="Storage\FTNPower\**" />
+    <Content Remove="Service\**" />
+    <Content Remove="Storage\FTNPower\**" />
+    <EmbeddedResource Remove="Service\**" />
+    <EmbeddedResource Remove="Storage\FTNPower\**" />
+    <None Remove="Service\**" />
+    <None Remove="Storage\FTNPower\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.0-preview.7.20364.11" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0-preview.7.20364.11" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0-preview.7.20364.11" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="5.0.0-preview.7.20364.11" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="5.0.0-preview.7.20364.11" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.0-preview.7.20370.3" />
+    <PackageReference Include="System.Drawing.Common" Version="5.0.0-preview.7.20364.11" />
+    <PackageReference Include="System.Drawing.Primitives" Version="4.3.0" />
+    <PackageReference Include="System.Resources.Extensions" Version="5.0.0-preview.7.20364.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Storage\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\FTNPowerApplication\FTNPower.Model\FTNPower.Model.csproj" />
+    <ProjectReference Include="..\FTNPower.Image.Api.Service\FTNPower.Image.Api.Service.csproj" />
+    <ProjectReference Include="..\FTNPower.Image.Processing\FTNPower.Image.Processing.csproj" />
+  </ItemGroup>
+
+  <Import Project="..\..\ProjectConfigurations\ProjectConfigurations.projitems" Label="Shared" />
+
+
+</Project>

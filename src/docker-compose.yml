@@ -1,0 +1,124 @@
+version: '3.4'
+
+services:
+  fortnitepowerbot:
+    image: mustafasalih/fortnite:bot
+    logging:
+        driver: "json-file"
+        options:
+            max-file: 4
+            max-size: 50m
+    build:
+        context: .
+        dockerfile: FTNPowerApplication/FTNPower/Dockerfile
+    networks:
+    - fortnite-network
+    volumes:
+    - fortnite-volume:/app/logs
+
+  fortnitepowerqueue:
+    image: mustafasalih/fortnite:queue
+    logging:
+        driver: "json-file"
+        options:
+            max-file: 4
+            max-size: 50m
+    build:
+        context: .
+        dockerfile: FortnitePowerQueue/Dockerfile
+    networks:
+    - fortnite-network
+
+  
+  website:
+    image: mustafasalih/fortnite:website
+    logging:
+        driver: "json-file"
+        options:
+            max-file: 4
+            max-size: 50m
+    build:
+        context: .
+        dockerfile: Websites/FTNPower.Website/Dockerfile
+    ports: 
+    - "5001:5001"
+    - "5000:5000"
+    networks:
+    - fortnite-network
+
+ 
+  imageservice:
+    image: mustafasalih/fortnite:imageservice
+    logging:
+        driver: "json-file"
+        options:
+            max-file: 4
+            max-size: 50m
+    build:
+        context: .
+        dockerfile: Websites/FTNPower.Image.Api/Dockerfile
+    ports: 
+    - "5010:5010"
+    networks:
+    - fortnite-network
+
+  redis:
+    image: mustafasalih/fortnite:redis
+    logging:
+        driver: "json-file"
+        options:
+            max-file: 4
+            max-size: 50m
+    build:
+      context: RedisDockerfile
+      dockerfile: Dockerfile
+    networks:
+    - fortnite-network
+
+  seq:
+    image: mustafasalih/fortnite:seq
+    logging:
+        driver: "json-file"
+        options:
+            max-file: 4
+            max-size: 50m
+    build:
+      context: .
+      dockerfile: SeqDockerfile/Dockerfile
+    ports:
+    - "5341:5341"
+    volumes:
+    - seq-volume:/data
+    networks:
+    - fortnite-network
+
+  ignite:
+    image: mustafasalih/fortnite:ignite
+    logging:
+        driver: "json-file"
+        options:
+            max-file: 1
+            max-size: 20m
+    build:
+      context: IgniteDockerfile
+      dockerfile: Dockerfile
+    ports:
+    - "47500-47509:47500-47509"
+    volumes:
+    - ignite-volume:/persistence 
+    networks:
+    - fortnite-network
+
+networks:
+  fortnite-network:
+     driver: host
+
+volumes:
+  fortnite-volume:
+     driver: local
+  nginx-volume:
+     driver: local
+  seq-volume:
+     driver: local
+  ignite-volume:
+     driver: local

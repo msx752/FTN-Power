@@ -1,0 +1,138 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Migrations\201806231119273_init.Designer.cs" />
+    <Compile Remove="Migrations\201806240006026_guild_language.Designer.cs" />
+    <Compile Remove="Migrations\201806261431543_DiscordServer-initialize.Designer.cs" />
+    <Compile Remove="Migrations\201808241025386_skip-feature.Designer.cs" />
+    <Compile Remove="Migrations\201808241110061_removes-skip.Designer.cs" />
+    <Compile Remove="Migrations\201810051349151_namechangeControl.Designer.cs" />
+    <Compile Remove="Migrations\201810051358428_blacklistfeature.Designer.cs" />
+    <Compile Remove="Migrations\201810051513597_removed-prop-at-NameState.Designer.cs" />
+    <Compile Remove="Migrations\201810051614433_add-priority-at-namestate.Designer.cs" />
+    <Compile Remove="Migrations\201810051713548_disabled-global-inqueue.Designer.cs" />
+    <Compile Remove="Migrations\201810051715239_lock-all-added.Designer.cs" />
+    <Compile Remove="Migrations\201810261044344_new-backend.Designer.cs" />
+    <Compile Remove="Migrations\201810301804048_priority-table.Designer.cs" />
+    <Compile Remove="Migrations\201811182059379_removed_old_table.Designer.cs" />
+    <Compile Remove="Migrations\201811241720239_account-power-level-precision.Designer.cs" />
+    <Compile Remove="Migrations\201811271830408_adding_apicId_property.Designer.cs" />
+    <Compile Remove="Migrations\201812011321187_SP_LocalTop20Users.Designer.cs" />
+    <Compile Remove="Migrations\201812011337365_SP_GlobalTop20Users.Designer.cs" />
+    <Compile Remove="Migrations\201812011427281_SP_RemoveNameStateForDiscord.Designer.cs" />
+    <Compile Remove="Migrations\201812011611395_SP_ListOfReadyToUpdate.Designer.cs" />
+    <Compile Remove="Migrations\201812012037503_SP_User_ValidState.Designer.cs" />
+    <Compile Remove="Migrations\201812012044311_SP_NameState_InQueue.Designer.cs" />
+    <Compile Remove="Migrations\201812012054229_SP_IJTABLE_UserNotValid.Designer.cs" />
+    <Compile Remove="Migrations\201812012115512_SP_User_LastUpdateTime.Designer.cs" />
+    <Compile Remove="Migrations\201812012209551_SP_TABLE_FortniteUsers_Update.Designer.cs" />
+    <Compile Remove="Migrations\201812021035184_LastMassUpdate.Designer.cs" />
+    <Compile Remove="Migrations\201812031527482_SP_NameState_ClearQueueByGuildId.Designer.cs" />
+    <Compile Remove="Migrations\201812042044334_GameUserMode.Designer.cs" />
+    <Compile Remove="Migrations\201812091951596_RestrictedRoleIds_on_discord_guild.Designer.cs" />
+    <Compile Remove="Migrations\201812132034210_GUILD_autoremoverequest.Designer.cs" />
+    <Compile Remove="Migrations\201812151352289_DiscordUser_NameTag_feature.Designer.cs" />
+    <Compile Remove="Migrations\20190511201004_NameStateTableFix.cs" />
+    <Compile Remove="Migrations\20190511201004_NameStateTableFix.Designer.cs" />
+    <Compile Remove="Migrations\20190511201057_NameStateTableFix.cs" />
+    <Compile Remove="Migrations\20190511201057_NameStateTableFix.Designer.cs" />
+    <Compile Remove="Migrations\20190511202417_NameStateTableFix.cs" />
+    <Compile Remove="Migrations\20190511202417_NameStateTableFix.Designer.cs" />
+    <Compile Remove="Migrations\20190511202559_NameStateTableFix.cs" />
+    <Compile Remove="Migrations\20190511202559_NameStateTableFix.Designer.cs" />
+    <Compile Remove="Migrations\20190511202806_NameStateTableFix.cs" />
+    <Compile Remove="Migrations\20190511202806_NameStateTableFix.Designer.cs" />
+    <Compile Remove="Migrations\20200113072214_sets-maxlength-for-EpicId.cs" />
+    <Compile Remove="Migrations\20200113072214_sets-maxlength-for-EpicId.Designer.cs" />
+    <Compile Remove="Migrations\20200420174430_stringToObjectToString.cs" />
+    <Compile Remove="Migrations\20200420174430_stringToObjectToString.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="Migrations\201806231119273_init.resx" />
+    <EmbeddedResource Remove="Migrations\201806240006026_guild_language.resx" />
+    <EmbeddedResource Remove="Migrations\201806261431543_DiscordServer-initialize.resx" />
+    <EmbeddedResource Remove="Migrations\201808241025386_skip-feature.resx" />
+    <EmbeddedResource Remove="Migrations\201808241110061_removes-skip.resx" />
+    <EmbeddedResource Remove="Migrations\201810051349151_namechangeControl.resx" />
+    <EmbeddedResource Remove="Migrations\201810051358428_blacklistfeature.resx" />
+    <EmbeddedResource Remove="Migrations\201810051513597_removed-prop-at-NameState.resx" />
+    <EmbeddedResource Remove="Migrations\201810051614433_add-priority-at-namestate.resx" />
+    <EmbeddedResource Remove="Migrations\201810051713548_disabled-global-inqueue.resx" />
+    <EmbeddedResource Remove="Migrations\201810051715239_lock-all-added.resx" />
+    <EmbeddedResource Remove="Migrations\201810261044344_new-backend.resx" />
+    <EmbeddedResource Remove="Migrations\201810301804048_priority-table.resx" />
+    <EmbeddedResource Remove="Migrations\201811182059379_removed_old_table.resx" />
+    <EmbeddedResource Remove="Migrations\201811241720239_account-power-level-precision.resx" />
+    <EmbeddedResource Remove="Migrations\201811271830408_adding_apicId_property.resx" />
+    <EmbeddedResource Remove="Migrations\201812011321187_SP_LocalTop20Users.resx" />
+    <EmbeddedResource Remove="Migrations\201812011337365_SP_GlobalTop20Users.resx" />
+    <EmbeddedResource Remove="Migrations\201812011427281_SP_RemoveNameStateForDiscord.resx" />
+    <EmbeddedResource Remove="Migrations\201812011611395_SP_ListOfReadyToUpdate.resx" />
+    <EmbeddedResource Remove="Migrations\201812012037503_SP_User_ValidState.resx" />
+    <EmbeddedResource Remove="Migrations\201812012044311_SP_NameState_InQueue.resx" />
+    <EmbeddedResource Remove="Migrations\201812012054229_SP_IJTABLE_UserNotValid.resx" />
+    <EmbeddedResource Remove="Migrations\201812012115512_SP_User_LastUpdateTime.resx" />
+    <EmbeddedResource Remove="Migrations\201812012209551_SP_TABLE_FortniteUsers_Update.resx" />
+    <EmbeddedResource Remove="Migrations\201812021035184_LastMassUpdate.resx" />
+    <EmbeddedResource Remove="Migrations\201812031527482_SP_NameState_ClearQueueByGuildId.resx" />
+    <EmbeddedResource Remove="Migrations\201812042044334_GameUserMode.resx" />
+    <EmbeddedResource Remove="Migrations\201812091951596_RestrictedRoleIds_on_discord_guild.resx" />
+    <EmbeddedResource Remove="Migrations\201812132034210_GUILD_autoremoverequest.resx" />
+    <EmbeddedResource Remove="Migrations\201812151352289_DiscordUser_NameTag_feature.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.0-preview.7.20365.19" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.0-preview.7.20365.19" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0-preview.7.20365.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.0-preview.7.20365.15">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.0-preview.7.20365.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0-preview.7.20365.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.0-preview.7.20365.15">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0-preview.7.20364.11" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0-preview.7.20364.11" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="5.0.0-preview.7.20364.11" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.0-preview.7.20364.11" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0-preview.7.20364.11" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="5.0.0-preview.7.20365.19" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0-preview.7.20364.11" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0-preview.7.20364.11" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0-preview.7.20364.11" />
+    <PackageReference Include="Microsoft.Extensions.Primitives" Version="5.0.0-preview.7.20364.11" />
+    <PackageReference Include="Microsoft.Win32.Primitives" Version="4.3.0" />
+    <PackageReference Include="NETStandard.Library" Version="2.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="StackExchange.Redis" Version="2.1.58" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0-preview.7.20364.11" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    
+    <ProjectReference Include="..\..\GlobalLibs\MyLogger\Global.csproj" />
+    
+    <ProjectReference Include="..\FTNPower.Model\FTNPower.Model.csproj" />
+  </ItemGroup>
+
+</Project>

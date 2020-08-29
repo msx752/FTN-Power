@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FTNPower.Queue": {
+      "commandName": "Project"
+    },
+    "Docker (1)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -1,0 +1,919 @@
+﻿[
+  {
+    "Key": "NameWillBeUpdated",
+    "Locales": {
+      "en": "{0}, your name will be `{1}`.",
+      "tr": "{0}, ismin `{1}` olarak ayarlanacak.",
+      "ru": "{0}, ваш ник: `{1}`",
+      "de": "{0}, dein Name wird `{1}` sein.",
+      "es": "{0}, Tu nombre sera {1}.",
+      "pt": "{0}, seu nome será `{1}`.",
+      "fr": "{0}, votre pseudo sera `{1}`.",
+      "nl": "{0}, jou naam zal `{1}` zijn."
+    }
+  },
+  {
+    "Key": "SetGuildLanguage",
+    "Locales": {
+      "en": "`bot response language has set to {0}.`",
+      "tr": "`bot yanıt dili {0} olarak ayarlandı.`",
+      "ru": "`язык бота был сменен на {0}.`",
+      "de": "`bot response language hat auf {0} gesetzt`",
+      "es": "`El idioma de respuesta del bot se ha cambiado a{0}.`",
+      "pt": "`linguagem do BOT setada para {0}.`",
+      "fr": "`La langue du bot a été mise sur {0}.`",
+      "nl": "`bot antwoord taal is op {0} gezet.`"
+    }
+  },
+  {
+    "Key": "UpdateRequestReceived",
+    "Locales": {
+      "en": "{0}` updating request is received`",
+      "tr": "{0}` güncelleme isteğin alındı`",
+      "ru": "{0}`, команда на обновление ника получена`",
+      "de": "{0}` Aktualisierungsanfrage wird empfangen`",
+      "es": "{0}` Solicitud de actualización recibida`",
+      "pt": "{0}`, o pedido de atualização foi recebido`",
+      "fr": "{0}` votre demande d'update a été reçue`",
+      "nl": "{0}` update aanvraag is ontvangen`"
+    }
+  },
+  {
+    "Key": "noname",
+    "Locales": {
+      "en": "noname",
+      "tr": "isimsiz",
+      "ru": "нет ника",
+      "de": "kein Name",
+      "es": "noname",
+      "pt": "sem nome",
+      "fr": "Sans ville",
+      "nl": "geennaam"
+    }
+  },
+  {
+    "Key": "Stonewood",
+    "Locales": {
+      "en": "Stonewood",
+      "tr": "Taşlıorman",
+      "ru": "Камнелесье",
+      "de": "Steinwald",
+      "es": "Bosque Pedrégoso",
+      "pt": "Floresta Pétrea",
+      "fr": "Fontainebois",
+      "nl": "Stonewood"
+    }
+  },
+  {
+    "Key": "Plankerton",
+    "Locales": {
+      "en": "Plankerton",
+      "tr": "Kalaslıevler",
+      "ru": "Планкертон",
+      "de": "Plankerton",
+      "es": "Villatablón",
+      "pt": "Plankerton",
+      "fr": "Villeplanche",
+      "nl": "Plankerton"
+    }
+  },
+  {
+    "Key": "CannyValley",
+    "Locales": {
+      "en": "Canny Valley",
+      "tr": "Tekinli Vadi",
+      "ru": "Вещая Долина",
+      "de": "Bru-Tal",
+      "es": "Valle Latoso",
+      "pt": "Canny Valley",
+      "fr": "Morne-la-Vallée",
+      "nl": "Canny Valley"
+    }
+  },
+  {
+    "Key": "TwinePeaks",
+    "Locales": {
+      "en": "Twine Peaks",
+      "tr": "Dikiz Tepeler",
+      "ru": "Линч-Пикс",
+      "de": "Twine Peaks",
+      "es": "Cumbres Leñosas",
+      "pt": "Twine Peaks",
+      "fr": "Pics Hardis",
+      "nl": "Twine Peaks"
+    }
+  },
+  {
+    "Key": "YouAreAlreadyInQueue",
+    "Locales": {
+      "en": "{0}, `you are already in queue.`",
+      "tr": "{0}, `zaten kuyrukta beklemedesin.`",
+      "ru": "{0}, `вы уже в очереди`",
+      "de": "{0},` du bist bereits in der queue ( Warteschlange )`",
+      "es": "{0}, `ya estás en cola.`",
+      "pt": "{0}, `você já está na fila.`",
+      "fr": "{0}, `vous êtes déja en liste.`",
+      "nl": "{0}, `je staat reeds in de wachtrij.`"
+    }
+  },
+  {
+    "Key": "SameLanguage",
+    "Locales": {
+      "en": "`same language.`",
+      "tr": "`aynı dil`",
+      "ru": "`тот же язык.`",
+      "de": "`dieselbe Sprache.`",
+      "es": "`mismo lenguaje.`",
+      "pt": "`Mesmo idioma.`",
+      "fr": "`même langue.`",
+      "nl": "`zelfde taal.`"
+    }
+  },
+  {
+    "Key": "Donation",
+    "Locales": {
+      "en": "Donation",
+      "tr": "Bağış",
+      "ru": "Донат",
+      "de": "Spende",
+      "es": "Donación",
+      "pt": "Doação",
+      "fr": "Dons",
+      "nl": "Donatie"
+    }
+  },
+  {
+    "Key": "BotDescription",
+    "Locales": {
+      "en": "__Account Power Level and Map Role Managing for Fortnite__",
+      "tr": "__Fortnite için Otomatik Hesap Enerjisi ve Harita Rolleri Yöneticisi__",
+      "ru": "__Бот для менеджмента ролей с локациями и мощи в Fortnite__",
+      "de": "__Account Energie Lvl und Maprollen-Managar für Fortnite__",
+      "es": "__Nivel y Administrador de Rol de Mapa para Fortnite__",
+      "pt": "__Acompanhamento de progressão do Salve o Mundo__",
+      "fr": "__Puissance de la base et Gestion de rôles pour Fortnite__",
+      "nl": "__Gebruiker Power Level en toegewezen Role beheer voor Fortnite__"
+    }
+  },
+  {
+    "Key": "Help",
+    "Locales": {
+      "en": "Discord Help:",
+      "tr": "Discord Yardım:",
+      "ru": "Сервер в Discord:",
+      "de": "Discord Hilfe:",
+      "es": "Discord Ayuda:",
+      "pt": "Ajuda sobre o BOT:",
+      "fr": "Aide Discord:",
+      "nl": "Discord Help:"
+    }
+  },
+  {
+    "Key": "FirstlyUseAnotherCmd1",
+    "Locales": {
+      "en": "{0}, must firstly use `f.name <epic name>`",
+      "tr": "{0}, öncelikle `f.kayıt <epic adı>` kullanman gerekiyor",
+      "ru": "{0}, сначала используйте `f.name <Ник в Epic Games>`",
+      "de": "{0} muss zuerst `f.name <epic name>` verwenden",
+      "es": "{0}, primero debe usar `f.name <epic name>`",
+      "pt": "{0}, primeiro use `f.name <nome na epic>`",
+      "fr": "{0}, vous devez d'abord utiliser `f.name <epic name>`",
+      "nl": "{0}, moet eerst `f.name <epic name>` gebruiken"
+    }
+  },
+  {
+    "Key": "FirstlyUseAnotherCmd2",
+    "Locales": {
+      "en": "{0}, your name is not valid firstly use `f.name <epic name>` to specify a valid name",
+      "tr": "{0}, ismin geçerli değil öncelikle `f.kayıt <epic adı>` kullanarak geçerli isim belirle",
+      "ru": "{0}, ваш ник не валидный. Используйте `f.name <Ник в Epic Games>` для подтверждения",
+      "de": "{0}, Ihr Name ist nicht gültig. Verwenden Sie zuerst f .name <epic name> `, um einen gültigen Namen anzugeben",
+      "es": "{0}, su nombre no es válido en primer lugar use `f.name <epic name>` para especificar un nombre válido",
+      "pt": "{0}, seu nome não é válido, use primeiro `f.name <nome na epic>` para especificar um nome válido",
+      "fr": "{0}, votre nom est invalide, veuillez d'abord utiliser `f.name <epic name>` et spécifier un nom valide",
+      "nl": "{0}, jou naam is niet geldig gebruik `f.name <epic name>` om een geldige naam te specificeren"
+    }
+  },
+  {
+    "Key": "YouHaveToWaitTime1",
+    "Locales": {
+      "en": "{0}, you have to wait `{1}` hours `{2}` minutes `{3}` seconds to use again",
+      "tr": "{0}, tekrar kullanmak için `{1}` saat `{2}` dakika `{3}` saniye beklemen gerekiyor",
+      "ru": "{0}, подождите `{1}` часов, `{2}` минуты и `{3}` секунды перед новой командой",
+      "de": "{0}, Sie müssen `{1}` Stunden `{2}` Minuten `{3}` Sekunden warten, um wieder verwendet zu werden",
+      "es": "{0}, debes esperar `{1}` horas `{2}` minutos `{3}` segundos para volver a usar",
+      "pt": "{0}, você tem que esperar `{1}` hora(s) `{2}` minuto(s) `{3}` segundo(s) para usar novamente",
+      "fr": "{0}, vous devez attendre`{1}` heures `{2}` minutes `{3}` secondes pour réutiliser la commande",
+      "nl": "{0}, je moet `{1}` uur `{2}` minuten `{3}` seconden wachten om opnieuw te proberen"
+    }
+  },
+  {
+    "Key": "YourNameIsLocked",
+    "Locales": {
+      "en": "{0}, your name locked, if you want you can unlock your name with `f.unlock` then use `f.name <epic id>`",
+      "tr": "{0}, ismin kilitli, eğer istersen `f.unlock` ile kilidi açabilirsin sonrasında `f.kayıt <epic id>` kullanabilirsin",
+      "ru": "{0}, ваш ник закреплен, для его смены вам необходимо его открепить через `f.unlock`, а затем испольховать `f.name <Ник в Epic Games>`",
+      "de": "{0}, Ihr Name ist gesperrt. Wenn Sie möchten, können Sie Ihren Namen mit `f.unlock` entsperren. Verwenden Sie dann 'f.name <epic id>`",
+      "es": "{0}, tu nombre está bloqueado, si lo deseas, puedes desbloquearlo con `f.unlock` y luego usar` f.name <epic id> `",
+      "pt": "{0}, seu nome está bloqueado, se você quiser, pode desbloquear seu nome com `f.unlock` depois use `f.name <nome na epic>`",
+      "fr": "{0}, votre pseudo est bloqué, si vous voulez vous pouvez le débloquer avec la commande `f.unlock` puis faites `f.name <epic id>`",
+      "nl": "{0}, jou naam is versleuteld, je kan je naam ontgerendelen met `f.unlock` en gebruik dan `f.name <epic id>`"
+    }
+  },
+  {
+    "Key": "CanNotUpdateDiscordOwner",
+    "Locales": {
+      "en": "{0}, no bot can manage a discord owner. ( [discord policy](https://stackoverflow.com/questions/45251598/can-i-change-discord-servers-owner-nickname-with-bot) )",
+      "tr": "{0}, herhangi bir bot discord sahibini yönetemez. ( [discord politikası](https://stackoverflow.com/questions/45251598/can-i-change-discord-servers-owner-nickname-with-bot) )",
+      "ru": "{0}, боты не могут управлять профилем создателя сервера или администратора. ( [политика Discord](https://stackoverflow.com/questions/45251598/can-i-change-discord-servers-owner-nickname-with-bot) )",
+      "de": "{0}, Jeder Bot, der den Zwiespaltbesitzer nicht verwalten kann. ( [discord policy](https://stackoverflow.com/questions/45251598/can-i-change-discord-servers-owner-nickname-with-bot) )",
+      "es": "{0}, Cualquier bot que no pueda gestionar el propietario de la discordia. ( [política de discordia](https://stackoverflow.com/questions/45251598/can-i-change-discord-servers-owner-nickname-with-bot) )",
+      "pt": "{0}, nenhum BOT pode gerenciar o Dono do Discord. ( [políticas do Discord](https://stackoverflow.com/questions/45251598/can-i-change-discord-servers-owner-nickname-with-bot) )",
+      "fr": "{0}, tout bot ne peut gerer le discord du propriétaire. ( [Réglement Discord](https://stackoverflow.com/questions/45251598/can-i-change-discord-servers-owner-nickname-with-bot) )",
+      "nl": "{0}, een bot kan de eigenaar van de discord niet beheren . ( [discord policy](https://stackoverflow.com/questions/45251598/can-i-change-discord-servers-owner-nickname-with-bot) )"
+    }
+  },
+  {
+    "Key": "ContainsNotAllowed",
+    "Locales": {
+      "en": "{0}, name contains not-allowed character",
+      "tr": "{0}, ismin izin verilmeyen karakter içeriyor",
+      "ru": "{0}, ваш ник содержит запрещенные символы",
+      "de": "{0}, Name enthält nicht erlaubtes Zeichen",
+      "es": "{0}, el nombre contiene un carácter no permitido",
+      "pt": "{0}, seu nome contém caracteres não permitidos",
+      "fr": "{0}, le nom contient des caratères non autorisés",
+      "nl": "{0}, de naam bevat niet toegestane karakters"
+    }
+  },
+  {
+    "Key": "PatchNotes",
+    "Locales": {
+      "en": "Fortnite {0} Patch Notes",
+      "tr": "Fortnite {0} Yama Notları",
+      "ru": "Описание обноления {0} в Fortnite",
+      "de": "Fortnite {0} Patchnotizen",
+      "es": "Notas de parche de Fortnite {0}",
+      "pt": "Patch Note do Fortnite {0}",
+      "fr": "Fortnite {0} Patch Notes",
+      "nl": "Fortnite {0} Patch Notes"
+    }
+  },
+  {
+    "Key": "CurrentPatchNotes",
+    "Locales": {
+      "en": "[current patch notes](https://www.epicgames.com/fortnite/en-us/news?utm_source=FTNPower&utm_medium=FTNPower&utm_campaign=ftn-power-discordbot)",
+      "tr": "[geçerli yama notları](https://www.epicgames.com/fortnite/en-us/news?utm_source=FTNPower&utm_medium=FTNPower&utm_campaign=ftn-power-discordbot)",
+      "ru": "[описание последнего обновления](https://www.epicgames.com/fortnite/en-us/news?utm_source=FTNPower&utm_medium=FTNPower&utm_campaign=ftn-power-discordbot)",
+      "de": "[aktuelle Patchnotizen](https://www.epicgames.com/fortnite/en-us/news?utm_source=FTNPower&utm_medium=FTNPower&utm_campaign=ftn-power-discordbot)",
+      "es": "[notas del parche actual](https://www.epicgames.com/fortnite/en-us/news?utm_source=FTNPower&utm_medium=FTNPower&utm_campaign=ftn-power-discordbot)",
+      "pt": "[Patch Note Atuais](https://www.epicgames.com/fortnite/en-us/news?utm_source=FTNPower&utm_medium=FTNPower&utm_campaign=ftn-power-discordbot)",
+      "fr": "[Patch note en cours](https://www.epicgames.com/fortnite/en-us/news?utm_source=FTNPower&utm_medium=FTNPower&utm_campaign=ftn-power-discordbot)",
+      "nl": "[huidige patch notes](https://www.epicgames.com/fortnite/en-us/news?utm_source=FTNPower&utm_medium=FTNPower&utm_campaign=ftn-power-discordbot)"
+    }
+  },
+  {
+    "Key": "FortniteMaintenance",
+    "Locales": {
+      "en": "Fortnite under maintenance",
+      "tr": "Fortnite bakımda",
+      "ru": "Сервера Fortnite на обслуживаний",
+      "de": "Fortnite unter Wartung",
+      "es": "Fortnite en mantenimiento",
+      "pt": "Fortnite em manutenção",
+      "fr": "Fortnite est en maintenance",
+      "nl": "Fortnite in onderhoud"
+    }
+  },
+  {
+    "Key": "AutoRemoveRequest1",
+    "Locales": {
+      "en": "removing users request is **{0}**",
+      "tr": "kullanıcı isteklerini silme **{0}**",
+      "ru": "удаление запроса - **{0}**",
+      "de": "Das Entfernen der Benutzeranforderung ist **{0}**.",
+      "es": "a eliminación de la solicitud de los usuarios es **{0}**",
+      "pt": "removendo usuários, seu pedido é **{0}**",
+      "fr": "retrait de la demande de requête **{0}**",
+      "nl": "gebruikers aanvraag verwijderen is **{0}**"
+    }
+  },
+  {
+    "Key": "PvpProfilIsNotPublic",
+    "Locales": {
+      "en": "{0}, your **Career Leaderboard Privacy**: must be **Public**.",
+      "tr": "{0}, senin **Kariyer Sıralaması Gizliliği: Herkese Açık** olmalıdır.",
+      "pt": "{0}, a sua ** Privacidade de Classificação de Carreira **: deve ser ** Pública **.",
+      "ru": "{0}, проверьте, чтобы **Доступ к информаций о карьере**: был **публичным**.",
+      "fr": "{0}, votre **Profil de carrière**: doit être **Publique**",
+      "nl": "{0}, jou **Career Leaderboard Privacy**: moet **Public** staan."
+    }
+  },
+  {
+    "Key": "EnablingToBotFeatures",
+    "Locales": {
+      "en": "this feature is included to PRO plan. [detail](https://ftnpower.com/home/plans)",
+      "fr": "cette fonctionnalité est incluse dans le plan PRO. [détail](https://ftnpower.com/home/plans)",
+      "nl": "deze functie is opgenomen in het PRO-plan. [detail](https://ftnpower.com/home/plans)",
+      "pt": "esse recurso está incluído no plano PRO. [detalhe](https://ftnpower.com/home/plans)",
+      "ru": "эта функция включена в план PRO. [Подробно](https://ftnpower.com/home/plans)",
+      "tr": "bu özellik PRO planına dahildir. [detay](https://ftnpower.com/home/plans)"
+    }
+  },
+  {
+    "Key": "PR_Title",
+    "Locales": {
+      "en": "{0}'s Fortnite Resources",
+      "pt": "Recursos do(a) {0}",
+      "ru": "Ресурсы в Fortnite игрока {0}",
+      "fr": "Ressources Fortnite de : {0}",
+      "nl": "{0}'s Fortnite Resources",
+      "tr": "{0} Kaynakları"
+    }
+  },
+  {
+    "Key": "P_Title",
+    "Locales": {
+      "en": "Stats for **{0}**",
+      "pt": "Informações do(a) **{0}**",
+      "ru": "Статистика о **{0}**",
+      "fr": "Statistiques de **{0}**",
+      "nl": "Statistieken voor **{0}**",
+      "tr": "**{0}** istatistikleri"
+    }
+  },
+  {
+    "Key": "P_PowerLevel",
+    "Locales": {
+      "en": "Account power level",
+      "pt": "Nível de Poder da Conta",
+      "ru": "Мощь",
+      "fr": "Niveau de la base",
+      "nl": "Account power level",
+      "tr": "Enerji seviyesi"
+    }
+  },
+  {
+    "Key": "P_ChestOpened",
+    "Locales": {
+      "en": "Chests opened",
+      "pt": "Baús Abertos",
+      "ru": "Сундуков открыто",
+      "fr": "Coffres ouverts",
+      "nl": "Chests opened",
+      "tr": "Açılan sandık"
+    }
+  },
+  {
+    "Key": "P_collectionLevel",
+    "Locales": {
+      "en": "Collection level",
+      "pt": "Nível do Livro de Coleção",
+      "ru": "Уровень КК",
+      "fr": "Niveau de collection",
+      "nl": "Collection level",
+      "tr": "Koleksiyon kitabı seviyesi"
+    }
+  },
+  {
+    "Key": "P_CommanderLevel",
+    "Locales": {
+      "en": "Commander level",
+      "pt": "Nível de Comandante",
+      "ru": "Уровень учетной записи",
+      "fr": "Niveau de commandement",
+      "nl": "Commander level",
+      "tr": "Komutan seviyesi"
+    }
+  },
+  {
+    "Key": "P_DaysLoggedin",
+    "Locales": {
+      "en": "Days logged in",
+      "pt": "Dias Logados",
+      "ru": "Дней в игре",
+      "fr": "Jours de connexion",
+      "nl": "Days logged in",
+      "tr": "Yapılan Günlük Giriş"
+    }
+  },
+  {
+    "Key": "P_GnomDestroy",
+    "Locales": {
+      "en": "Gnomes destroyed",
+      "pt": "Gnomos Destruídos",
+      "ru": "Уничтожено гномов",
+      "fr": "Nains détruits",
+      "nl": "Gnomes destroyed",
+      "tr": "Yokedilen Cüceler"
+    }
+  },
+  {
+    "Key": "P_MistMonsterKilled",
+    "Locales": {
+      "en": "Mist monsters killed",
+      "pt": "Monstros da Névoa Mortos",
+      "ru": "Убито туманных монстров",
+      "fr": "Monstres de la brumes tués",
+      "nl": "Mist monsters killed",
+      "tr": "Katledilen Sis Canavarları"
+    }
+  },
+  {
+    "Key": "P_PlayWithOthers",
+    "Locales": {
+      "en": "Play with others",
+      "pt": "Jogado com Outros",
+      "ru": "Кол-во игр с другими",
+      "fr": "Jouer avec des inconnus",
+      "nl": "Play with others",
+      "tr": "Başkarıyla Oynama"
+    }
+  },
+  {
+    "Key": "P_StructuresBuilt",
+    "Locales": {
+      "en": "Structures built",
+      "pt": "Estruturas Construídas",
+      "ru": "Построено",
+      "fr": "Structures Construites",
+      "nl": "Structures built",
+      "tr": "İnşaa Edilen Yapı"
+    }
+  },
+  {
+    "Key": "P_SurvivorSaved",
+    "Locales": {
+      "en": "Survivors saved",
+      "pt": "Sobreviventes Salvos",
+      "ru": "Выживших спасено",
+      "fr": "Survivants sauvés",
+      "nl": "Survivors saved",
+      "tr": "Kurtarılan Felaketzede"
+    }
+  },
+  {
+    "Key": "P_ZoneExplored",
+    "Locales": {
+      "en": "Zone explored",
+      "pt": "Zonas Exploradas",
+      "ru": "Зон исследовано",
+      "fr": "Zones explorées",
+      "nl": "Zone explored",
+      "tr": "Keşfedilen Bölgeler"
+    }
+  },
+  {
+    "Key": "P_StoredResearch",
+    "Locales": {
+      "en": "Stored research",
+      "pt": "Pontos de Pesquisa",
+      "ru": "Хранится очков исследования",
+      "fr": "Niveau de stockage",
+      "nl": "Stored research",
+      "tr": "Depolanan Araştırma"
+    }
+  },
+  {
+    "Key": "P_FortitudeResearch",
+    "Locales": {
+      "en": "Fortitude research",
+      "pt": "Pesquisa de Fortitude",
+      "ru": "Исследовано стойкости",
+      "fr": "Niveau de Forme",
+      "nl": "Fortitude research",
+      "tr": "Kuvvet Araştırması"
+    }
+  },
+  {
+    "Key": "P_OffenseResearch",
+    "Locales": {
+      "en": "Offense research",
+      "pt": "Pesquisa de Ataque",
+      "ru": "Исследовано атаки",
+      "fr": "Niveau d'Offensive",
+      "nl": "Offense research",
+      "tr": "Atak Araştırması"
+    }
+  },
+  {
+    "Key": "P_ResistanceResearch",
+    "Locales": {
+      "en": "Resistance research",
+      "pt": "Pesquisa de Resistência",
+      "ru": "Исследовано сопротивления",
+      "fr": "Niveau de Résistance",
+      "nl": "Resistance research",
+      "tr": "Siper Araştırması"
+    }
+  },
+  {
+    "Key": "P_TechnologyResearch",
+    "Locales": {
+      "en": "Technology research",
+      "pt": "Pesquisa Tecnológica",
+      "ru": "Исследовано техники",
+      "fr": "Niveau de Technologie",
+      "nl": "Technology research",
+      "tr": "Kabiliyet Araştırması"
+    }
+  },
+  {
+    "Key": "PS_Title",
+    "Locales": {
+      "en": "Resources needed to make all Squads level {0}",
+      "pt": "Recursos necessários para colocar todos os Squads no nível {0}",
+      "ru": "Кол-во нужных ресурсов для всех отрядов, чтобы поднять их до уровня {0}",
+      "fr": "Resources nécessaires pour augmenter tout les escouades au niveau {0}",
+      "nl": "Bronnen benodigd om alle Squads level {0} te maken",
+      "tr": "Felaketzede takımını {0} seviye yapmak için gerekenler"
+    }
+  },
+  {
+    "Key": "PS_Description",
+    "Locales": {
+      "en": "for {0}",
+      "pt": "para {0}",
+      "ru": "для {0}",
+      "fr": "pour {0}",
+      "nl": "voor {0}",
+      "tr": "{0} için;"
+    }
+  },
+  {
+    "Key": "PS_Max",
+    "Locales": {
+      "en": "MAX",
+      "pt": "MAX",
+      "ru": "МАКСИМУМ",
+      "fr": "MAX",
+      "nl": "MAX",
+      "tr": "MAKS."
+    }
+  },
+  {
+    "Key": "PS_Needs",
+    "Locales": {
+      "en": "NEEDS",
+      "pt": "PRECISO",
+      "ru": "НУЖНО",
+      "fr": "BESOINS",
+      "nl": "BENODIGD",
+      "tr": "GEREKEN"
+    }
+  },
+  {
+    "Key": "squad_attribute_scavenging_gadgeteers",
+    "Locales": {
+      "en": "Gadgeteers",
+      "pt": "Engenhoqueiros",
+      "ru": "Техники",
+      "fr": "Section Gadgets",
+      "nl": "Gadgeteers",
+      "tr": "Cihazcılar"
+    }
+  },
+  {
+    "Key": "squad_attribute_synthesis_corpsofengineering",
+    "Locales": {
+      "en": "Corps of engineering",
+      "pt": "Engenharia",
+      "ru": "Инженерный отряд",
+      "fr": "Corps du Génie",
+      "nl": "Corps of engineering",
+      "tr": "Mühendislik Teşkilatı"
+    }
+  },
+  {
+    "Key": "squad_attribute_scavenging_scoutingparty",
+    "Locales": {
+      "en": "Scouting party",
+      "pt": "Vigilância",
+      "ru": "Разведгруппа",
+      "fr": "Groupe de Reconnaissance",
+      "nl": "Scouting party",
+      "tr": "Keşif Birliği"
+    }
+  },
+  {
+    "Key": "squad_attribute_arms_closeassaultsquad",
+    "Locales": {
+      "en": "Close assault",
+      "pt": "Curto Alcance",
+      "ru": "Штурмовой отряд",
+      "fr": "Unité d'Assault",
+      "nl": "Close assault",
+      "tr": "Yakın Saldırı Ekibi"
+    }
+  },
+  {
+    "Key": "squad_attribute_medicine_trainingteam",
+    "Locales": {
+      "en": "Training Team",
+      "pt": "Treinamento",
+      "ru": "Тренировочная группа",
+      "fr": "Section d'entrainement",
+      "nl": "Training Team",
+      "tr": "Eğitimciler"
+    }
+  },
+  {
+    "Key": "squad_attribute_synthesis_thethinktank",
+    "Locales": {
+      "en": "The think tank",
+      "pt": "O Tanque Pensador",
+      "ru": "Экспертная группа",
+      "fr": "Section de Planification",
+      "nl": "The think tank",
+      "tr": "Beyin Takımı"
+    }
+  },
+  {
+    "Key": "squad_attribute_arms_fireteamalpha",
+    "Locales": {
+      "en": "Fire team alpha",
+      "pt": "Tiro Alfa",
+      "ru": "Огневая группа Альфа",
+      "fr": "Groupe de Combat Alpha",
+      "nl": "Fire team alpha",
+      "tr": "Nişancı Takımı"
+    }
+  },
+  {
+    "Key": "squad_attribute_medicine_emtsquad",
+    "Locales": {
+      "en": "EMT Squad",
+      "pt": "Paramédicos",
+      "ru": "Отряд военврачей",
+      "fr": "Section Secouriste",
+      "nl": "EMT Squad",
+      "tr": "Acil Yardım Ekibi"
+    }
+  },
+  {
+    "Key": "PA_Title",
+    "Locales": {
+      "en": "{0}'s Alert Cooldowns",
+      "pt": "{0} 's Cooldowns de alerta",
+      "ru": "Алерты игрока {0}",
+      "fr": "Cooldowns d'alerte de {0}",
+      "nl": "{0}'s Alert Cooldowns"
+    }
+  },
+  {
+    "Key": "GeneralAlert",
+    "Locales": {
+      "en": "Miniboss Alert",
+      "pt": "Alerta de Miniboss",
+      "ru": "Алерты на боссов",
+      "fr": "Alerte miniboss",
+      "nl": "Miniboss Alert"
+    }
+  },
+  {
+    "Key": "MiniBossAlert",
+    "Locales": {
+      "en": "Miniboss Alert",
+      "pt": "Alerta de Miniboss",
+      "ru": "Алерты на боссов",
+      "fr": "Alerte miniboss",
+      "nl": "Miniboss Alert"
+    }
+  },
+  {
+    "Key": "NatureAlert",
+    "Locales": {
+      "en": "Nature Alert",
+      "pt": "Alerta de Natureza",
+      "ru": "Алерты на электрические Бури",
+      "fr": "Tempête Nature",
+      "nl": "Nature Alert"
+    }
+  },
+  {
+    "Key": "WaterAlert",
+    "Locales": {
+      "en": "Water Alert",
+      "pt": "Alerta de Água",
+      "ru": "Алерты на водяные Бури",
+      "fr": "Tempête de Glace",
+      "nl": "Water Alert"
+    }
+  },
+  {
+    "Key": "MegaAlert",
+    "Locales": {
+      "en": "Mega Alert",
+      "pt": "Mega Alerta",
+      "ru": "Мега-Алерты",
+      "fr": "Tempête Méga",
+      "nl": "Mega Alert"
+    }
+  },
+  {
+    "Key": "FireAlert",
+    "Locales": {
+      "en": "Fire Alert",
+      "pt": "Alerta de Fogo",
+      "ru": "Алерты на огненные группы",
+      "fr": "Tempête de Feu",
+      "nl": "Fire Alert"
+    }
+  },
+  {
+    "Key": "StormAlert",
+    "Locales": {
+      "en": "Storm Alert",
+      "pt": "Alerta de Tempestade",
+      "ru": "Алерты на бури-мутанты",
+      "fr": "Alerte Tempêtes",
+      "nl": "Storm Alert"
+    }
+  },
+  {
+    "Key": "NewMissionIntroductionCategory",
+    "Locales": {
+      "en": "Beta Alert",
+      "pt": "Alerta Beta",
+      "ru": "Алерты Мини-Бурь",
+      "fr": "Alerte tempête Beta",
+      "nl": "Beta Alert"
+    }
+  },
+  {
+    "Key": "AlertCooldowns",
+    "Locales": {
+      "en": "{0} cooldowns",
+      "pt": "{0} Cooldowns",
+      "ru": "Кулдауны игрока {0}",
+      "fr": "{0} cooldowns",
+      "nl": "{0} cooldowns"
+    }
+  },
+  {
+    "Key": "PA_Available",
+    "Locales": {
+      "en": "Available {0}",
+      "pt": "Disponível {0}",
+      "ru": "Доступно алертов: {0}",
+      "fr": "{0} disponibles",
+      "nl": "Beschikbaar {0}"
+    }
+  },
+  {
+    "Key": "MA_Available",
+    "Locales": {
+      "en": "**Available:** *{0}*\n",
+      "pt": "**Expira em:** *{0}*\n",
+      "nl": "**Beschikbaar:** *{0}*\n"
+    }
+  },
+  {
+    "Key": "MA_Title",
+    "Locales": {
+      "en": "Mission Alerts",
+      "pt": "Alertas da Missão",
+      "nl": "Mission Alerts"
+    }
+  },
+  {
+    "Key": "MA_Rewards",
+    "Locales": {
+      "en": "Rewards",
+      "pt": "Recompensas",
+      "nl": "Rewards"
+    }
+  },
+  {
+    "Key": "MA_NegativeMutation",
+    "Locales": {
+      "en": "Negative Mutations",
+      "pt": "Mutações Negativas",
+      "nl": "Negative Mutations"
+    }
+  },
+  {
+    "Key": "MA_PositiveMutation",
+    "Locales": {
+      "en": "Positive Mutations",
+      "pt": "Mutações Positivas",
+      "nl": "Positive Mutations"
+    }
+  },
+  {
+    "Key": "MA_ExpreIn",
+    "Locales": {
+      "en": "Expire in {0}",
+      "pt": "expira em {0}",
+      "nl": "Expire in {0}"
+    }
+  },
+  {
+    "Key": "IncorrectGameMode",
+    "Locales": {
+      "en": "incorrect GameMode please specify correct GameMode like `f.mode pvp` or `f.mode pve`",
+      "nl": "foutieve GameMode kan je de correcte GameMode zoals `f.mode pvp` or `f.mode pve` gebruiken",
+      "pt": "O Modo de Jogo que você Escolheu está Errado, use `f.mode pvp` ou `f.mode pve`",
+      "tr": "Hatalı oyun modu seçimi.`f.mode pvp` veya `f.mode pve` modlarından birini seç."
+    }
+  },
+  {
+    "Key": "NameIsLocked",
+    "Locales": {
+      "en": "{0}'s Nickname is **LOCKED** at this discord",
+      "nl": "{0}'s Nickname is **VERSLEUTELD** in deze discord",
+      "pt": "{0} seu Nick está **BLOQUEADO** neste Discord",
+      "tr": "{0} kullanıcı adı bu Discord'ta **kitlendi**."
+    }
+  },
+  {
+    "Key": "NameIsUnLocked",
+    "Locales": {
+      "en": "{0}'s Nickname is **UN-LOCKED** at this discord",
+      "nl": "{0}'s Nickname is **ONTGRENDELD** in deze discord",
+      "pt": "{0} seu Nick está **DESBLOQUEADO** neste Discord",
+      "tr": "{0} kullanıcı adının bu Discord'ta **kilidi kaldırıldı**."
+    }
+  },
+  {
+    "Key": "YouShouldHaveValidName",
+    "Locales": {
+      "en": "__you should also have valid epic name.__\n",
+      "nl": "__je moet een geldige epic name hebben.__\n",
+      "pt": "__Você precisa de um Nick Da Epic Games válido.__",
+      "tr": "__Doğru bir Epic ismine sahip olmalısın.__\n"
+    }
+  },
+  {
+    "Key": "SelectItemType1",
+    "Locales": {
+      "en": "please select **vbuck**, **mythic**, **legendary**, **epic**, **legend perk**, **epic perk**, **legend survivor**, **pure drop**, **storm shard**, **lightning**, **eyeofstorm**, parameters for **f.pve.missions**",
+      "nl": "gelieve de **vbuck**, **mythic**, **legendary**, **epic**, **legend perk**, **epic perk**, **legend survivor**, **pure drop**, **storm shard**, **lightning**, **eyeofstorm**, parameters te selecteren voor **f.pve.missions**",
+      "pt": "Por favor escolha **vbuck**, **mythic**, **legendary**, **epic**, **legend perk**, **epic perk**, **legend survivor**, **pure drop**, **storm shard**, **lightning**, **eyeofstorm**, para poder filtrar as missões com o Cmd **f.pve.missions**",
+      "tr": "Lütfen **f.pve.missions** için **vbuck**, **mythic**, **legendary**, **epic**, **legend perk**, **epic perk**, **legend survivor**, **pure drop**, **storm shard**, **lightning**, **eyeofstorm** parametrelerinden birini seç."
+    }
+  },
+  {
+    "Key": "InvalidUserMention",
+    "Locales": {
+      "en": "invalid user mention.",
+      "nl": "ongeldige gebruikers vermelding.",
+      "pt": "Menção Inválida",
+      "tr": "Geçersiz kullanıcı etiketi"
+    }
+  },
+  {
+    "Key": "NameUnlinked",
+    "Locales": {
+      "en": "your Epic Name({0}) is **un-linked**.",
+      "nl": "jou Epic Naam({0}) is **niet verbonden**.",
+      "pt": "Seu Nick ({0}) está **Desvinculado",
+      "tr": "({0}) Epic adının **sahipliği kaldırıldı**."
+    }
+  },
+  {
+    "Key": "NameisNotLinked",
+    "Locales": {
+      "en": "your discord account is not linked with any Epic Username.",
+      "nl": "jou discord account is niet verbonden met een Epic gebruikersnaam.",
+      "pt": "Sua conta do Discord não está vinculada á Epic Games",
+      "tr": "Discord hesabın herhangi bir Epic adı sahipliği taşımıyor."
+    }
+  },
+  {
+    "Key": "NameIsNotCorrectMsg",
+    "Locales": {
+      "en": "{0}, The username you typed is incorrect. Please retry.\n\nPlease make sure this is your **epicgames username** and __NOT__ **xbox/ps4**",
+      "nl": "{0}, De gebruikersnaam ingevoerd is niet correct. gelieve opnieuw te proberen.\n\nGelieve zeker te zijn je **epicgames gebruikersnaam** te gebruiken en __NIET__ de **xbox/ps4**",
+      "pt": "{0}, O Nick colocado está incorreto. Tente Novamente.\n\nPor favor coloque seu **Nick da EpicGames** __NÃO__ **xbox/ps4**",
+      "tr": "{0}, Yazdığınız kullanıcı adı hatalı. Lütfen tekrar deneyin.\n\nLütfen **epicgames username** adının doğru olduğundan emin olun. __NOT__ **xbox/ps4**"
+    }
+  },
+  {
+    "Key": "ShowsPVEDecimals1",
+    "Locales": {
+      "en": "state of displaying decimal point of Account Power Level is **{0}**.",
+      "nl": "de status van de decimaal van de Account Power Level is **{0}**.",
+      "pt": "Mostrar o Poder da Conta em forma decimal: **{0}**.",
+      "tr": "Hesap enerji seviyesinin ondalık görüntüleme durumu : **{0}**"
+    }
+  },
+  {
+    "Key": "SupportedBy",
+    "Locales": {
+      "en": "supported by {0}",
+      "tr": "{0} tarafından destekleniyor.",
+      "ru": "поддерживается {0}",
+      "de": "unterstützt von {0}",
+      "es": "apoyado por {0}",
+      "pt": "suportado por {0}",
+      "fr": "soutenu par {0}"
+    }
+  },
+  {
+    "Key": "CreatorCode",
+    "Locales": {
+      "en": "CREATOR CODE: {0}"
+    }
+  }
+]

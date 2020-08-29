@@ -1,0 +1,41 @@
+{
+  "cache": {
+    "systemRamTarget": 0.9,
+    "compactLargeObjectHeap": false
+  },
+  "diagnostics": {
+    "internalLogPath": "/data/Logs",
+    "internalLoggingLevel": "Information",
+    "internalLogServerUrl": null,
+    "telemetryServerUrl": null,
+    "metricsSamplingIntervalSeconds": 300
+  },
+  "api": {
+    "listenUris": [
+      "http://localhost:80",
+      "http://localhost:5341"
+    ],
+    "canonicalUri": null,
+    "ingestionPort": 5341,
+    "corsAllowedOrigins": [],
+    "frameAllowFrom": [],
+    "redirectHttpToHttps": false,
+    "hstsMaxAge": 31536000,
+    "hstsIncludeSubDomains": false,
+    "hardSessionExpirySeconds": null,
+    "idleSessionExpirySeconds": 172800
+  },
+  "storage": {
+    "masterKey": "S7vm4zVwdOPysF8N6trxV6R5/ju5wtU3m5nUUf0XZF8=",
+    "masterKeyEnvironmentVariableName": null,
+    "useEnvironmentForMasterKey": false,
+    "flare": {
+      "indexerPriority": 0.0
+    }
+  },
+  "metastore": {
+    "lmdb": {
+      "mapSize": 128000000
+    }
+  }
+}

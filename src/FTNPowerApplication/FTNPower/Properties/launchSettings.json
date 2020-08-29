@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FTNPower": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

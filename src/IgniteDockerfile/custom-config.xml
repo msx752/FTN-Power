@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+  <!--
+        Alter configuration below as needed.
+    -->
+  <bean class="org.apache.ignite.configuration.IgniteConfiguration"> 
+    <!-- Enabling Apache Ignite native persistence. -->
+	<property name="dataStorageConfiguration">
+		<bean class="org.apache.ignite.configuration.DataStorageConfiguration">
+		  <property name="defaultDataRegionConfiguration">
+		    <bean class="org.apache.ignite.configuration.DataRegionConfiguration">
+		    	<property name="initialSize" value="#{10L * 1024 * 1024}"/>
+		     	<property name="maxSize" value="#{100L * 1024 * 1024}"/>
+		     	<property name="persistenceEnabled" value="true"/>
+		    </bean>
+		  </property>
+		</bean>
+	</property>
+  </bean>
+</beans>

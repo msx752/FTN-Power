@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RestSharp" Version="106.10.2-alpha.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\GlobalLibs\MyLogger\Global.csproj" />
+    <ProjectReference Include="..\Fortnite.Core\Fortnite.Core.csproj" />
+    <ProjectReference Include="..\Fortnite.Model\Fortnite.Model.csproj" />
+  </ItemGroup>
+
+</Project>

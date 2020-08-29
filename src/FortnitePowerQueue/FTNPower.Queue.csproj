@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <StartupObject>FortnitePowerQueue.Program</StartupObject>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <ConcurrentGarbageCollection>true</ConcurrentGarbageCollection>
+    <ServerGarbageCollection>false</ServerGarbageCollection>
+    <RetainVMGarbageCollection>true</RetainVMGarbageCollection>
+    <ThreadPoolMinThreads>1</ThreadPoolMinThreads>
+    <ThreadPoolMaxThreads>100</ThreadPoolMaxThreads>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningsAsErrors>NU1605</WarningsAsErrors>
+    <NoWarn>1701;1702;CS0168;CS0162;CS1574;</NoWarn>
+  </PropertyGroup>
+
+	<PropertyGroup>
+		<ServerGarbageCollection>false</ServerGarbageCollection>
+	</PropertyGroup>
+
+  <ItemGroup>
+   
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.0-preview.7.20364.11" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0-preview.7.20364.11" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.8" />
+    <PackageReference Include="Serialize.Linq" Version="1.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Discord.Net-dev\src\Discord.Net.Commands\Discord.Net.Commands.csproj" />
+    <ProjectReference Include="..\Discord.Net-dev\src\Discord.Net.Core\Discord.Net.Core.csproj" />
+    <ProjectReference Include="..\Discord.Net-dev\src\Discord.Net.Rest\Discord.Net.Rest.csproj" />
+    <ProjectReference Include="..\Fortnite\Fortnite.Api\Fortnite.Api.csproj" />
+    <ProjectReference Include="..\Fortnite\Fortnite.Core\Fortnite.Core.csproj" />
+    <ProjectReference Include="..\Fortnite\Fortnite.Model\Fortnite.Model.csproj" />
+    <ProjectReference Include="..\Fortnite\Fortnite.StaticData\Fortnite.Static.csproj" />
+    <ProjectReference Include="..\Fortnite\Fortnite\Fortnite.csproj" />
+    <ProjectReference Include="..\Fortnite\Fortnite.Localization\Fortnite.Localization.csproj" />
+    <ProjectReference Include="..\FTNPowerApplication\FTNPower.Static\FTNPower.Static.csproj" />
+    <ProjectReference Include="..\FTNPower.Redis\FTNPower.Redis.csproj" />
+  </ItemGroup>
+
+  <Import Project="..\ProjectConfigurations\ProjectConfigurations.projitems" Label="Shared" />
+
+</Project>
