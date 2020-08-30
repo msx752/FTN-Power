@@ -1,4 +1,5 @@
-# FTN-Power
+[![FTNPower Discord Bot](https://top.gg/api/widget/lib/454547389731045380.svg)](https://top.gg/bot/454547389731045380) [![FTNPower Servers](https://top.gg/api/widget/servers/454547389731045380.svg)](https://top.gg/bot/454547389731045380) [![FTN Power Owner](https://top.gg/api/widget/owner/454547389731045380.svg)](https://top.gg/bot/454547389731045380)
+# FTN Power
 Source codes of the FTN Power project have been published (including private Fortnite STW API and services), feel free to use. FTN Power discord bot has been shut down. Thank you for all your supports.
 
 | FTN Power Libraries      |
