@@ -5,6 +5,7 @@ Source codes of the FTN Power project have been published (including private For
 | :---        |
 | [Fortnite STW API](https://github.com/msx752/FTN-Power/tree/master/src/Fortnite)      |
 | [Fortnite Power Level Formula](https://github.com/msx752/FTN-Power/blob/master/src/Tests/FortniteLib.Tests/UserUnit.cs#L44)      |
+| [Fortnite Assets](https://raw.githubusercontent.com/msx752/FTN-Power/master/RequiredVolumeData/fortnite-volume/_data/FTNPower/_CDNIMGIDS.json)      |
 | [FTN Power discord bot](https://github.com/msx752/FTN-Power/tree/master/src/FTNPowerApplication)      |
 | [FTN Power back-end services](https://github.com/msx752/FTN-Power/tree/master/src/FortnitePowerQueue)      |
 | [FTN Power image service](https://github.com/msx752/FTN-Power/tree/master/src/Websites/FTNPower.Image.Api)     |
