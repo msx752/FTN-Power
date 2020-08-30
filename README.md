@@ -12,3 +12,4 @@ Source codes of the FTN Power project have been published (including private For
 | [FTN Power log service](https://github.com/msx752/FTN-Power/tree/master/src/SeqDockerfile)      |
 | [FTN Power logger](https://github.com/msx752/FTN-Power/tree/master/src/GlobalLibs/MyLogger)      |
 
+[![FTN Power Commands](https://raw.githubusercontent.com/msx752/FTN-Power/master/ftnpower-discordbot.png)](https://github.com/msx752/FTN-Power)
